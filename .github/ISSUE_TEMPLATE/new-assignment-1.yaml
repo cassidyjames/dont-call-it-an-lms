@@ -19,6 +19,11 @@ body:
         3. Very briefly, it describes the modification (or modifications) you proposed to the game:
         
         4. Reflect on your modifications: would you do something different? What and why?
+  - type: input
+    attributes:
+      label: Learner's username
+      description: Remember to include the `@`!
+      placeholder: @username
   - type: checkboxes
     id: checklist
     attributes:
