@@ -1,4 +1,4 @@
-# Don't Call It an LMS
+# Can GitHub Be an LMS?
 
 Pls ignore. :)
 
