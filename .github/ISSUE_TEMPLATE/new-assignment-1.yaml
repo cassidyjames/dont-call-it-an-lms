@@ -23,7 +23,7 @@ body:
     attributes:
       label: Learner's username
       description: Remember to include the `@`!
-      placeholder: `@username`
+      placeholder: "@username"
   - type: checkboxes
     id: checklist
     attributes:
