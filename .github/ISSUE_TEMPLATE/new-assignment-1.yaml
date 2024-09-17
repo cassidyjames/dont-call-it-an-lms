@@ -19,7 +19,7 @@ body:
     id: checklist
     attributes:
       label: Checklist
-      description: Make sure you've completed each step before submitting:
+      description: "Make sure you've completed each step before submitting:"
       options:
         - label: I'm an instructor or mentor creating an assignment
           required: true
