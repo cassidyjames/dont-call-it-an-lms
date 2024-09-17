@@ -9,16 +9,20 @@ body:
   - type: markdown
     attributes:
       value: |
-        # What role does the modification play in the design of video games?
-        Leave a comment below with the following:
+        # What role does _modification_ play in the design of video games?
+        Learners, please leave a comment below with your answers to the following:
+        
         1. What type of game did you choose, and why?
+        
         2. Share a link to the game you selected and played
+        
         3. Very briefly, it describes the modification (or modifications) you proposed to the game:
+        
         4. Reflect on your modifications: would you do something different? What and why?
   - type: checkboxes
     id: checklist
     attributes:
-      label: Checklist
+      label: Checklist for instructor
       description: "Make sure you've completed each step before submitting:"
       options:
         - label: I'm an instructor or mentor creating an assignment
