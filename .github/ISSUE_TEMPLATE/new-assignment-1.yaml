@@ -1,0 +1,27 @@
+name: "Create New: Assignment 1"
+description: Create a new task for assignment 1 to be assigned to one or more learners
+title: "Assignment 1: Do a thing"
+labels: 
+  - Assignment
+  - Assignment 1
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # What role does the modification play in the design of video games?
+        Leave a comment below with the following:
+        1. What type of game did you choose, and why?
+        2. Share a link to the game you selected and played
+        3. Very briefly, it describes the modification (or modifications) you proposed to the game:
+        4. Reflect on your modifications: would you do something different? What and why?
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      description: Make sure you've completed each step before submitting:
+      options:
+        - label: I'm an instructor or mentor creating an assignment
+          required: true
+        - label: I've assigned this issue to the appropriate learner(s)
+          required: true
