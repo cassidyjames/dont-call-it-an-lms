@@ -1,0 +1,27 @@
+name: "Submission: Assignment 1"
+description: Submit your first assignemnt here!
+title: "Assignment 1 Submission"
+labels: 
+  - Assignment
+  - Assignment 1
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Welcome to the GitHub-based assignment submission. Congrats on making it this far! **Your first assignment is simply to introduce yourself** here, to help make sure you're set up with an account and have a grasp on the very basics of using GitHub issues.
+  - type: textarea
+    id: about
+    attributes:
+      label: About myself
+      description: "Give us just a bit of a picture about you. Some ideas: What is your favorite video game? What are some of your interests outside of this course? What do you think you'll like about game development?"
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      description: Make sure you've completed each step and reviewed the [code of conduct](https://example.com) before submitting
+      options:
+        - label: I'm a learner in the right place!
+          required: true
+        - label: I've reviewed and agree to follow the code of conduct
+          required: true
